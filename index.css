@@ -1,0 +1,91 @@
+*{
+    box-sizing: border-box;
+    position:relative;
+    margin:0px;
+}
+
+.navbar-bg{
+    background-color:#04364A;
+    color:#DAFFFB;
+}
+
+.logo{
+    height:55px;
+    width:55px;
+    border-radius:50px;
+}
+
+.nav-link{
+    color: #64CCC5 !important;
+ }
+.nav-link:hover{
+   color: #DAFFFB !important;
+   font-weight:600 !important ;
+   text-decoration: underline !important;
+}
+
+
+.banner{
+    background-image: url('https://img.freepik.com/free-photo/portrait-smiling-medical-worker-girl-doctor-white-coat-with-stethoscope-pointing-fingers-left_1258-124585.jpg?w=1480&t=st=1696518927~exp=1696519527~hmac=86f9fc8eccac85a04638e1a4a75881bb3fe88ddb0e47c06d1f8607086452a09d');
+    height:auto;
+    background-size:cover;
+    background-repeat: no-repeat;
+    padding:20px;
+}
+.banner-section{
+    height:200px;
+    display:flex;
+    flex-direction: column;
+    border:2px solid red;
+
+}
+.heading{
+    font-style: italic;
+    font-size: 20px;
+    height:150px;
+    width:400px;
+    color:#04364A;
+}
+
+.banner-button {
+    background-color:#176B87;
+    border:none;
+    width:150px;
+    height:40px;
+    border-radius:5px;
+    color:white;
+    font-family:'roboto';
+    font-size:16px;
+    cursor: pointer;
+    margin-top:40px;
+}
+
+
+.book{
+    background-color:#04364A;
+    color:#DAFFFB;
+}
+
+.ap-img{
+    height:400px;
+    width:150px;
+}
+
+.icon{
+    height:75px;
+    width:75px;
+    text-align: center;
+}
+
+
+.app-footer{
+    background-color:#04364A;
+    height:70vh;
+    background-size:cover;
+}
+
+ul{
+    list-style: none;
+}
+
+
